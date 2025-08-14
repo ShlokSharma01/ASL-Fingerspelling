@@ -1,0 +1,19 @@
+
+# Core libraries for TensorFlow/Keras approach
+tensorflow==2.10.1
+# Note: Installing tensorflow-gpu==2.10.1 might be necessary for GPU support
+# and requires manual installation of CUDA/cuDNN libraries (see TensorFlow GPU guide).
+# pip install tensorflow-gpu==2.10.1
+opencv-python
+numpy
+matplotlib
+pillow
+scipy
+
+# Core libraries for PyTorch approach
+# PyTorch needs to be installed separately for correct CUDA version.
+# Visit https://pytorch.org/get-started/locally/ for the correct command.
+# Example for CUDA 11.8:
+# torch
+# torchvision
+# torchaudio
